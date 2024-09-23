@@ -1,8 +1,8 @@
 # patroni-pg-cluster-test
 
-Patroni kullanarak PostgreSQL veritabanı cluster tesleri için konteyner oluşturma ve çalıştırma scriptlerini içerir.
+Patroni kullanarak PostgreSQL veritabanı cluster testleri için konteyner oluşturma ve çalıştırma scriptlerini içerir.
 
-Konteyner ortamı için docker yerinde podman kullanılmıştır. Bir konteyner içinde birden fazla servis(process) çalışması için systemd kullanılması durumunda docker içinde çalıştımak problemli olmaktadır. Podman ile benzer bir konteyner teknolojisi ve birden fazla servisi çalıştıran systemd prosesi problem çıkartmamıştır.
+Konteyner ortamı için docker yerine podman kullanılmıştır. Bir konteyner içinde birden fazla servis(process) çalışması için systemd kullanılması durumunda docker içinde çalıştırmak problemli olmaktadır. Podman ile benzer bir konteyner teknolojisi ve birden fazla servisi çalıştıran systemd prosesi problem çıkartmamıştır.
 
 
 Örnek topoloji için aşağıdaki komut ile özel network oluşturularak başlandı.
